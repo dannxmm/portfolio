@@ -49,11 +49,13 @@ body {
 
 
 header {
-    position: fixed;
+    position: -webkit-sticky; /* Ensure Safari compatibility */
+    position: sticky;
     top: 0;
     width: 100%;
     background-color: #F9F6F2;
     z-index: 1000;
+    -webkit-transition: top 0.3s, box-shadow 0.3s;
     transition: top 0.3s, box-shadow 0.3s;
 }
 
@@ -66,6 +68,10 @@ header.hidden {
 }
 
 nav {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -97,15 +103,16 @@ nav ul li a {
     padding: 4px 10px;
     font-size: 90%;
     display: block;
+    -webkit-transition: all 0.2s;
     transition: all 0.2s;
     font-weight: 600;
 }
-
 
 nav .linkedin-icon {
     height: 15px;
     margin-bottom: 100%;
     vertical-align: middle;
+    -webkit-transition: all 0.2s;
     transition: all 0.2s;
 }
 
