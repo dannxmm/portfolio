@@ -54,16 +54,11 @@ header {
     width: 100%;
     background-color: #F9F6F2;
     z-index: 1000;
-    -webkit-transition: top 0.3s, -webkit-box-shadow 0.3s;
-    transition: top 0.3s, -webkit-box-shadow 0.3s;
-    -o-transition: top 0.3s, box-shadow 0.3s;
     transition: top 0.3s, box-shadow 0.3s;
-    transition: top 0.3s, box-shadow 0.3s, -webkit-box-shadow 0.3s;
 }
 
 header.scrolled {
-    -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 header.hidden {
@@ -71,15 +66,9 @@ header.hidden {
 }
 
 nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: space-between;
+    align-items: center;
     padding: 20px 15px 0px;
 }
 
@@ -91,8 +80,6 @@ nav .logo {
 
 nav ul {
     list-style-type: none;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     margin: 0;
     padding: 0;
@@ -110,8 +97,6 @@ nav ul li a {
     padding: 4px 10px;
     font-size: 90%;
     display: block;
-    -webkit-transition: all 0.2s;
-    -o-transition: all 0.2s;
     transition: all 0.2s;
     font-weight: 600;
 }
@@ -121,8 +106,6 @@ nav .linkedin-icon {
     height: 15px;
     margin-bottom: 100%;
     vertical-align: middle;
-    -webkit-transition: all 0.2s;
-    -o-transition: all 0.2s;
     transition: all 0.2s;
 }
 
@@ -197,8 +180,6 @@ main {
     color: #EB4E00;
     margin-top: -5px;
     opacity: 0;
-    -webkit-transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
     transition: opacity 1s ease-in-out;
 }
 
@@ -219,14 +200,9 @@ main {
 }
 
 .recentworks-content {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .recentworks-content a {
@@ -247,20 +223,14 @@ main {
 .recentworks-content img {
     width: 480px;
     height: 337px;
-    -o-object-fit: cover;
-       object-fit: cover;
-    -o-object-position: center;
-       object-position: center;
+    object-fit: cover;
+    object-position: center;
     border-radius: 8px;
-    -webkit-transition: all 0.2s;
-    -o-transition: all 0.2s;
     transition: all 0.2s;
 }
 
 .recentworks-content a:hover img {
-    -webkit-transform: scale(1.05);
-        -ms-transform: scale(1.05);
-            transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 
@@ -278,15 +248,9 @@ main {
 
 
 .container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    justify-content: space-between;
+    align-items: flex-start;
     max-width: 1100px;
     margin: auto;
     padding: 0 20px;
@@ -387,9 +351,7 @@ main {
 
 
 .project-pictures {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     max-width: 900px;
     margin: auto;
     margin-top: 4%;
@@ -453,8 +415,6 @@ main {
     font-weight: 600;
     cursor: pointer;
     border-radius: 62px;
-    -webkit-transition: all 0.2s;
-    -o-transition: all 0.2s;
     transition: all 0.2s;
 }
 
@@ -470,14 +430,9 @@ main {
     padding: 2px 35px;
     bottom: 0;
     vertical-align: middle;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .footer p {
@@ -489,8 +444,6 @@ main {
     height: 15px;
     vertical-align: middle;
     padding: 15px 1px;
-    -webkit-transition: all 0.2s;
-    -o-transition: all 0.2s;
     transition: all 0.2s;
 }
 
