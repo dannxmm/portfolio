@@ -2,6 +2,28 @@ html {
     scroll-behavior: smooth
 }
 
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.hero {
+    display: flex;
+    justify-content: center; /* center horizontally */
+    align-items: center;     /* center vertically */
+    height: 100vh;           /* full viewport height */
+    background-color: #111;  /* optional: dark background for slick look */
+}
+
+.hero lottie-player {
+    width: 25vw;    /* responsive size */
+    max-width: 500px;
+    min-width: 250px;
+    height: auto;   /* maintain aspect ratio */
+}
+
+
 @font-face {
     font-family: 'Avenir';
     src: url("/fonts/Avenir-Light.ttf") format('ttf');
