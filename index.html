@@ -5,25 +5,41 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>daniel caetano - design</title>
- <script
-  src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.5/dist/dotlottie-wc.js"
-  type="module"
-></script>
+  <script
+    src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.5/dist/dotlottie-wc.js"
+    type="module"
+  ></script>
+
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #F9F6F2;
+    }
+
+     dotlottie-wc {
+    width: 1000px;   
+    height: 1000px;
+  }
+
+
+  @media (max-width: 600px) {
+    dotlottie-wc {
+      width: 80%;
+      height: auto;
+    }
+  }
+</style>
 </head>
 
 <body class="home-page">
-
-  <main>
-    <div id="lottie-container" style="width:400px; height:400px; margin:50px auto;"></div>
-  </main>
-
-<dotlottie-wc
-  src="https://lottie.host/afc736d3-e89d-4c6f-8fc1-12431eddfbc6/UxGQodXBfT.lottie"
-  style="width: 300px;height: 300px"
-  autoplay
-  loop
-></dotlottie-wc>
-
+  <dotlottie-wc
+    src="https://lottie.host/afc736d3-e89d-4c6f-8fc1-12431eddfbc6/UxGQodXBfT.lottie"
+    autoplay
+  ></dotlottie-wc>
 </body>
+
 </html>
-    
